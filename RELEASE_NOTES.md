@@ -2,7 +2,7 @@
 
 面向 GitHub 下载分发的专注猫咪体验版。应用内部版本为 `0.2.0`，构建号为 `11`。
 
-**本体验版完全免费，无需付款或打赏。** [打开 0.2.0-beta.1 下载页](https://github.com/janiezhang52-lab/focuscat/releases/tag/v0.2.0-beta.1)，在 Assets 中选择 DMG 或 ZIP。
+[打开 0.2.0-beta.1 下载页](https://github.com/janiezhang52-lab/focuscat/releases/tag/v0.2.0-beta.1)，在 Assets 中选择 DMG 或 ZIP。
 
 ## 本版内容
 

@@ -1,6 +1,6 @@
 # 专注猫咪 · FocusCat
 
-**[下载 0.2.0-beta.1 体验版](https://github.com/janiezhang52-lab/focuscat/releases/tag/v0.2.0-beta.1) · 完全免费，无需付款或打赏。**
+**[下载 0.2.0-beta.1 体验版](https://github.com/janiezhang52-lab/focuscat/releases/tag/v0.2.0-beta.1)**
 
 一只住在 Mac 桌面上的白色异瞳小猫。开始一段专注，慢慢积攒食物，再放进饭碗喂它。
 
@@ -57,4 +57,4 @@ Windows、Intel Mac 暂未支持。商店、换装、零食和睡垫尚未开放
 
 本项目使用了 AI 辅助。猫咪图集由 OpenAI 图像生成工具生成和修改，代码与说明文字也有 AI 辅助；应用运行时不连接 AI 服务。
 
-本仓库用于提供发布资料和安装包，应用源码尚未公开。免费体验不代表已经开源，本仓库未授予源码或素材的开源许可。
+本仓库用于提供发布资料和安装包，应用源码尚未公开。本仓库未授予源码或素材的开源许可。
