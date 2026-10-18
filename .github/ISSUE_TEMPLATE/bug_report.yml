@@ -1,0 +1,67 @@
+name: Bug report
+description: 反馈安装、计时、喂食或桌面显示问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮忙体验。请勿上传个人路径、完整存档或未经遮挡的桌面截图。
+        如果 macOS 提示“已损坏”或“将损坏你的电脑”，请停止打开并提供完整提示。
+  - type: input
+    id: app-version
+    attributes:
+      label: 应用版本与下载文件名
+      placeholder: 例如 0.2.0-beta.1，FocusCat-0.2.0-beta.1-macOS-arm64.dmg
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Mac 芯片与 macOS 版本
+      description: 可在苹果菜单“关于本机”中查看，无需提供序列号。
+      placeholder: 例如 Apple M2，macOS 15.7
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题发生在哪里
+      options:
+        - 下载或首次打开
+        - 专注计时或食物奖励
+        - 喂食或饭碗拖动
+        - 小猫显示或动作
+        - 存档或重新打开
+        - 登录启动
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何复现
+      description: 从打开应用开始，按顺序描述操作；偶发问题也请说明当时在做什么。
+      placeholder: |
+        1. 打开应用
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期待发生什么
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际发生了什么
+      description: 如有系统提示，请复制完整文字或附上遮挡个人信息后的截图。
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息（可选）
+      description: 例如是否接外屏、是否刚休眠唤醒、从哪个旧版本更新；不要上传完整存档。
